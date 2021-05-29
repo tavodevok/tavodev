@@ -1,0 +1,16 @@
+@import 'card.css';
+
+/* PROJECTS SECTION */
+.projects-section {
+    background-color: var(--primary);
+    padding: 2rem 0;
+  }
+  
+  .projects-section .title {
+    color: var(--white);
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-weight: bold;
+    border-bottom: 1px solid var(--secondary);
+  }

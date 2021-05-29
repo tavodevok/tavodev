@@ -1,0 +1,20 @@
+:root {
+    --primary: #0E0F10;
+    --secondary: #D37E27;
+    --tertiary: #CCCCCC;
+    --lightblue: #1AB7EA;
+    --strongblue: #011D37;
+    --seablue: #5077A6;
+    --seablue: rgba(80, 119, 166, .4);
+    --seablue-light: #F1F8FE;
+    --azul-strong: #161A5A;
+    --celeste : #0076bd;
+    --grayish-blue: #303029;
+    --azul-claro: #Ebeae9;
+    --blue-light: rgba(0, 20, 57, 0.6);
+    --white: #FFFFFF;
+    --yellow: #FF214F;
+    --font: 'Lato', sans-serif;
+    --background: var(--white);
+    --text: #303029;
+}

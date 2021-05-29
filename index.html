@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tavodev - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/ionic-icons.css">
+    <!-- <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/queries.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header container-fluid">
+        <div class="header-content container">
+            <div class="logo">
+                <!-- <img src="/logo-icon.png" alt=""> -->
+                <a class="logo-text">tavodev
+                </a>
+            </div>
+            <nav class="navigation">
+                <div id="btnHamburger" class="header__toggle hide-for-desktop">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+
+                        <ul class="menu">
+                            <li class="menu__items"><a class="menu__links" href="#home">Home</a></li>
+                            <li class="menu__items"><a class="menu__links" href="#about">About</a></li>
+                            <li class="menu__items"><a class="menu__links" href="#projects">Projects</a></li>
+                            <li class="menu__items"><a class="menu__links" href="#contact">Contact</a></li>
+                        </ul>
+
+
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home container-fluid flex-col">
+        <div class="home-text container flex-col">
+            <h1 class="section-title animate__animated animate__fadeIn">Hi, there!</h1>
+            <p class="presentation animate__animated animate__fadeInUp">I'm a Frontend developer and technology lover...
+                <br> I do my best effort to enhance my skills day by day...thanks for your time.</p>
+            <a href="#projects-section" class="btn-down">
+                <a href="#projects" class="btn-cta-title animate__animated animate__fadeInUp">see projects</a>
+                <a href="#projects"><ion-icon class="btn-cta" name="arrow-dropdown-circle"></ion-icon></a>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about-section container-fluid">
+        <h2 class="title">About me</h2>
+        <div class="about-content content flex-row">
+            <picture class="photo-container flex-row">
+                <img class="img-fluid" src="assets/img/freelancer.png" alt="">
+            </picture>
+            <div class="about-content-text container">
+                <p>I'm a Frontend developer with some Backend knownledge.</p>
+                <p>I enjoy carrying out the web layout and interactivity of web interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-section container-fluid flex-col-evenly">
+        <h2 class="title">Tecnologies I use</h2>
+        <div class="tools-container content-md flex-col">
+            <div class="tech-1 content-md">
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="50" height="50" viewBox="0 0 26 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13 19C13 15.5482 15.7982 12.75 19.25 12.75C22.7018 12.75 25.5 15.5482 25.5 19C25.5 22.4518 22.7018 25.25 19.25 25.25C15.7982 25.25 13 22.4518 13 19Z"
+                            fill="#1ABCFE" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.5 31.5C0.5 28.0482 3.29822 25.25 6.75 25.25H13V31.5C13 34.9518 10.2018 37.75 6.75 37.75C3.29822 37.75 0.5 34.9518 0.5 31.5Z"
+                            fill="#0ACF83" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13 0.25V12.75H19.25C22.7018 12.75 25.5 9.95178 25.5 6.5C25.5 3.04822 22.7018 0.25 19.25 0.25H13Z"
+                            fill="#FF7262" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.5 6.5C0.5 9.95178 3.29822 12.75 6.75 12.75H13V0.25H6.75C3.29822 0.25 0.5 3.04822 0.5 6.5Z"
+                            fill="#F24E1E" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.5 19C0.5 22.4518 3.29822 25.25 6.75 25.25H13V12.75H6.75C3.29822 12.75 0.5 15.5482 0.5 19Z"
+                            fill="#A259FF" />
+                    </svg>
+
+                    <p class="tool-name">Figma</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30 5.902 27.201z">
+                        </path>
+                        <path fill="#f1662a" d="M16 27.858l8.17-2.265 1.922-21.532H16v23.797z"></path>
+                        <path fill="#ebebeb"
+                            d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83.759 8.517H16v-3.091zm0 8.027l-.014.004-3.442-.929-.22-2.465H9.221l.433 4.852 6.332 1.758.014-.004v-3.216z">
+                        </path>
+                        <path fill="#fff"
+                            d="M15.989 13.407v3.091h3.806l-.358 4.009-3.448.93v3.216l6.337-1.757.046-.522.726-8.137.076-.83h-7.185zm0-6.256v3.091h7.466l.062-.694.141-1.567.074-.83h-7.743z">
+                        </path>
+                    </svg>
+                    <p class="tool-name">HTML5</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path fill="#1572b6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30 5.902 27.201z">
+                        </path>
+                        <path fill="#33a9dc" d="M16 27.858l8.17-2.265 1.922-21.532H16v23.797z"></path>
+                        <path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829-.759 8.518H16v-3.091z">
+                        </path>
+                        <path fill="#ebebeb"
+                            d="M16.019 21.218l-.014.004-3.442-.93-.22-2.465H9.24l.433 4.853 6.331 1.758.015-.004v-3.216z">
+                        </path>
+                        <path fill="#fff"
+                            d="M19.827 16.151l-.372 4.139-3.447.93v3.216l6.336-1.756.047-.522.537-6.007h-3.101z"></path>
+                        <path fill="#ebebeb"
+                            d="M16.011 6.935v3.091H8.545l-.062-.695-.141-1.567-.074-.829h7.743zM16 13.191v3.091h-3.399l-.062-.695-.14-1.567-.074-.829H16z">
+                        </path>
+                    </svg>
+                    <p class="tool-name">CSS3</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" fill="#F0DB4F" />
+                        <path
+                            d="M26.4023 27.9375H29.918V39.75C29.918 40.8359 29.6758 41.7969 29.1914 42.6328C28.7148 43.4609 28.0391 44.1016 27.1641 44.5547C26.2891 45.0078 25.3008 45.2344 24.1992 45.2344C22.3945 45.2344 20.9883 44.7773 19.9805 43.8633C18.9727 42.9414 18.4688 41.6406 18.4688 39.9609H22.0078C22.0078 40.7969 22.1836 41.4141 22.5352 41.8125C22.8867 42.2109 23.4414 42.4102 24.1992 42.4102C24.8711 42.4102 25.4062 42.1797 25.8047 41.7188C26.2031 41.2578 26.4023 40.6016 26.4023 39.75V27.9375ZM41.7773 40.5234C41.7773 39.8594 41.543 39.3516 41.0742 39C40.6055 38.6406 39.7617 38.2656 38.543 37.875C37.3242 37.4766 36.3594 37.0859 35.6484 36.7031C33.7109 35.6562 32.7422 34.2461 32.7422 32.4727C32.7422 31.5508 33 30.7305 33.5156 30.0117C34.0391 29.2852 34.7852 28.7188 35.7539 28.3125C36.7305 27.9062 37.8242 27.7031 39.0352 27.7031C40.2539 27.7031 41.3398 27.9258 42.293 28.3711C43.2461 28.8086 43.9844 29.4297 44.5078 30.2344C45.0391 31.0391 45.3047 31.9531 45.3047 32.9766H41.7891C41.7891 32.1953 41.543 31.5898 41.0508 31.1602C40.5586 30.7227 39.8672 30.5039 38.9766 30.5039C38.1172 30.5039 37.4492 30.6875 36.9727 31.0547C36.4961 31.4141 36.2578 31.8906 36.2578 32.4844C36.2578 33.0391 36.5352 33.5039 37.0898 33.8789C37.6523 34.2539 38.4766 34.6055 39.5625 34.9336C41.5625 35.5352 43.0195 36.2812 43.9336 37.1719C44.8477 38.0625 45.3047 39.1719 45.3047 40.5C45.3047 41.9766 44.7461 43.1367 43.6289 43.9805C42.5117 44.8164 41.0078 45.2344 39.1172 45.2344C37.8047 45.2344 36.6094 44.9961 35.5312 44.5195C34.4531 44.0352 33.6289 43.375 33.0586 42.5391C32.4961 41.7031 32.2148 40.7344 32.2148 39.6328H35.7422C35.7422 41.5156 36.8672 42.457 39.1172 42.457C39.9531 42.457 40.6055 42.2891 41.0742 41.9531C41.543 41.6094 41.7773 41.1328 41.7773 40.5234Z"
+                            fill="black" />
+                    </svg>
+                    <p class="tool-name">Javascript</p>
+                </div>
+            </div>
+            <div class="tech-2 content-md">
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M16.171 18.7c-.481.221-1.008.509-2.063 1.088-.4.225-.818.45-1.207.662-.027-.027-.055-.061-.082-.089-2.087-2.23-5.947-3.805-5.783-6.8.061-1.091.436-3.955 7.413-7.433 5.742-2.83 10.311-2.046 11.1-.307 1.134 2.479-2.449 7.092-8.379 7.761a4.469 4.469 0 01-3.751-.948c-.314-.341-.361-.361-.477-.293-.191.1-.068.409 0 .586a3.5 3.5 0 002.141 1.684 11.4 11.4 0 006.956-.689c3.594-1.391 6.4-5.258 5.578-8.5-.825-3.287-6.281-4.371-11.443-2.537a26 26 0 00-8.79 5.047c-2.844 2.66-3.294 4.972-3.11 5.94.662 3.437 5.4 5.674 7.3 7.331-.1.055-.184.1-.259.143-.948.471-4.562 2.36-5.463 4.358-1.023 2.264.164 3.887.948 4.105a5.832 5.832 0 006.281-2.544 6.3 6.3 0 00.559-5.8 5.03 5.03 0 01.716-.477c.484-.286.945-.568 1.354-.786a10.475 10.475 0 014.475-.989c3.246.382 3.887 2.407 3.764 3.26a2.157 2.157 0 01-1.03 1.459c-.225.143-.3.191-.28.293.027.15.136.143.327.116a2.535 2.535 0 001.766-2.257c.1-2-1.807-4.194-5.183-4.174a7.753 7.753 0 00-2.946.587q-.225.093-.437.2zm-4.825 7.839c-1.078 1.173-2.578 1.616-3.226 1.241-.7-.4-.423-2.135.9-3.376a17.18 17.18 0 012.53-1.889c.157-.1.389-.232.668-.4l.075-.041.164-.1a4.658 4.658 0 01-1.111 4.565z"
+                            fill="#cd6799"></path>
+                    </svg>
+                    <p class="tool-name">SASS</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#7952B3"
+                        class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z" />
+                        <path
+                            d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z" />
+                    </svg>
+                    <p class="tool-name">Bootstrap</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M9 13.7q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1zm-7 8.4q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1z"
+                            fill="#44a8b3"></path>
+                    </svg>
+                    <p class="tool-name">Tailwind</p>
+                </div>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M29.472 14.753L17.247 2.528a1.8 1.8 0 00-2.55 0l-2.539 2.539 3.22 3.22a2.141 2.141 0 012.712 2.73l3.1 3.1a2.143 2.143 0 11-1.285 1.21l-2.895-2.895v7.617a2.141 2.141 0 11-1.764-.062V12.3a2.146 2.146 0 01-1.165-2.814l-3.17-3.172L2.528 14.7a1.8 1.8 0 000 2.551l12.225 12.221a1.8 1.8 0 002.55 0L29.472 17.3a1.8 1.8 0 000-2.551"
+                            fill="#dd4c35"></path>
+                        <path
+                            d="M12.158 5.067l3.22 3.22a2.141 2.141 0 012.712 2.73l3.1 3.1a2.143 2.143 0 11-1.285 1.21l-2.895-2.895v7.617a2.141 2.141 0 11-1.764-.062V12.3a2.146 2.146 0 01-1.165-2.814l-3.17-3.172"
+                            fill="#fff"></path>
+                    </svg>
+                    <p class="tool-name">Git</p>
+                </div>
+            </div>
+            <div class="learning-tech container flex-col">
+                <h2 class="title">I'm learning</h2>
+                <div class="tool flex-col animate__animated animate__fadeIn">
+                    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <circle cx="16" cy="15.974" r="2.5" fill="#00d8ff"></circle>
+                        <path
+                            d="M16 21.706a28.385 28.385 0 01-8.88-1.2 11.3 11.3 0 01-3.657-1.958A3.543 3.543 0 012 15.974c0-1.653 1.816-3.273 4.858-4.333A28.755 28.755 0 0116 10.293a28.674 28.674 0 019.022 1.324 11.376 11.376 0 013.538 1.866A3.391 3.391 0 0130 15.974c0 1.718-2.03 3.459-5.3 4.541a28.8 28.8 0 01-8.7 1.191zm0-10.217a27.948 27.948 0 00-8.749 1.282c-2.8.977-4.055 2.313-4.055 3.2 0 .928 1.349 2.387 4.311 3.4A27.21 27.21 0 0016 20.51a27.6 27.6 0 008.325-1.13C27.4 18.361 28.8 16.9 28.8 15.974a2.327 2.327 0 00-1.01-1.573 10.194 10.194 0 00-3.161-1.654A27.462 27.462 0 0016 11.489z"
+                            fill="#00d8ff"></path>
+                        <path
+                            d="M10.32 28.443a2.639 2.639 0 01-1.336-.328c-1.432-.826-1.928-3.208-1.327-6.373a28.755 28.755 0 013.4-8.593 28.676 28.676 0 015.653-7.154 11.376 11.376 0 013.384-2.133 3.391 3.391 0 012.878 0c1.489.858 1.982 3.486 1.287 6.859a28.806 28.806 0 01-3.316 8.133 28.385 28.385 0 01-5.476 7.093 11.3 11.3 0 01-3.523 2.189 4.926 4.926 0 01-1.624.307zm1.773-14.7a27.948 27.948 0 00-3.26 8.219c-.553 2.915-.022 4.668.75 5.114.8.463 2.742.024 5.1-2.036a27.209 27.209 0 005.227-6.79 27.6 27.6 0 003.181-7.776c.654-3.175.089-5.119-.713-5.581a2.327 2.327 0 00-1.868.089A10.194 10.194 0 0017.5 6.9a27.464 27.464 0 00-5.4 6.849z"
+                            fill="#00d8ff"></path>
+                        <path
+                            d="M21.677 28.456c-1.355 0-3.076-.82-4.868-2.361a28.756 28.756 0 01-5.747-7.237 28.676 28.676 0 01-3.374-8.471 11.376 11.376 0 01-.158-4A3.391 3.391 0 018.964 3.9c1.487-.861 4.01.024 6.585 2.31a28.8 28.8 0 015.39 6.934 28.384 28.384 0 013.41 8.287 11.3 11.3 0 01.137 4.146 3.543 3.543 0 01-1.494 2.555 2.59 2.59 0 01-1.315.324zm-9.58-10.2a27.949 27.949 0 005.492 6.929c2.249 1.935 4.033 2.351 4.8 1.9.8-.465 1.39-2.363.782-5.434A27.212 27.212 0 0019.9 13.74a27.6 27.6 0 00-5.145-6.64c-2.424-2.152-4.39-2.633-5.191-2.169a2.327 2.327 0 00-.855 1.662 10.194 10.194 0 00.153 3.565 27.465 27.465 0 003.236 8.1z"
+                            fill="#00d8ff"></path>
+                    </svg>
+                    <p class="tool-name">React JS</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section container-fluid flex-col">
+        <h2 class="title">Latest Projects</h2>
+        <div class="cards-container content-md">
+            <div class="card card1">
+                <img src="assets/img/classic-business.jpg" alt="">
+            </div>
+            <div class="card card2">
+                <img src="assets/img/classic-one-page.jpg" alt="">
+            </div>
+            <div class="card card3">
+                <img src="assets/img/creative-minimalist-portfolio.jpg" alt="">
+            </div>
+            <div class="card card4">
+                <img src="assets/img/classic-one-page.jpg" alt="">
+            </div>
+            <div class="card card3">
+                <img src="assets/img/project123.jpg" alt="">
+            </div>
+            <div class="card card4">
+                <img src="assets/img/project321.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!--BOTON IR ARRIBA-->
+        <div class="go-top-container">
+                <div class="go-top-button">
+                    <ion-icon id="buttonTop" name="arrow-dropup-circle"></ion-icon>
+                </div>
+        </div>
+
+    <footer id="contact" class="footer container-fluid">
+        <div class="footer-content container">
+            <div class="social flex-row">
+                <p class="follow-me">Follow me:</p>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+
+            <div class="copy">
+                <p class="copy-text">2021 - made by <span>@tavodev</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

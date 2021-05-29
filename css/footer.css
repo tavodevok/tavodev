@@ -1,0 +1,41 @@
+.footer {
+    align-items: center;
+    background: var(--primary);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 1rem 0;
+  }
+
+  .footer span {
+      font-family: 'Limelight', cursive;
+  }
+
+  .social {
+}
+.social ion-icon {
+  font-size: 1.5rem;
+  color: var(--white);
+  margin: 0 1rem;
+  transition: all 0.3s ease-in;
+}
+.social ion-icon:hover,
+.copy-text span:hover {
+  color: var(--secondary);
+  transform: scale(1.2);
+}
+
+.copy {
+  margin: 1rem;
+}
+.copy .copy-text,
+.follow-me {
+  font-size: 1rem;
+  color: var(--white);
+}

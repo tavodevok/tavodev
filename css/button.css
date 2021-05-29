@@ -1,0 +1,89 @@
+.btn {
+    display: inline-block;
+    padding: 1rem;
+    max-width: max-content;
+
+}
+
+.btn-rounded {
+        border-radius: 8px;
+}
+
+/* GO DOWN BUTTON */
+
+.btn-down {
+  /* border: 1px solid var(--yellow); */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.btn-cta{
+  color: var(--tertiary);
+  display: inline-block;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 32px;
+  padding: 0 1rem;
+  transition: color 0.3s ease-in-out;
+  }
+  .btn-cta:hover {
+    color: var(--secondary);
+  }
+
+.btn-cta-title {
+  color: var(--white);
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid var(--white);
+  padding: .5rem 1rem;
+}
+
+.btn-cta-title:hover {
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+
+
+
+
+
+/* ARROW UP */
+
+.go-top-container {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    right: 2rem;
+    bottom: 2rem;
+  }
+  
+  .go-top-button {
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .go-top-button ion-icon {
+    position: absolute;
+    color: var(--secondary);
+    font-size: 2rem;
+    transition: 2s;
+  }
+  
+  .show-btop {
+    opacity: 0;
+  }
+  
+  /* ENDS BUTTON UP */

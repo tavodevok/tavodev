@@ -1,0 +1,56 @@
+
+/* ABOUT SECTION  */
+
+.about-section {
+    background-color: var(--white);
+    text-align: center;
+  }
+
+  .about-content {
+      flex-wrap: wrap;
+    }
+
+  .about-content-text p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--primary);
+  }
+
+  .photo-container {
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+  
+  
+  .photo-container img {
+    object-fit: cover;
+  }
+
+  .img-fluid {
+    width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+  
+  /* ABOUT SECTION ENDS*/
+
+  @media screen and (min-width: 576px) {
+    .about-content-text p {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .about-content-text p {
+      font-size: 1.5rem;
+    }
+
+
+  .about-section .title,
+  .tools-section .title,
+  .projects-section .title {
+    font-size: 1.8rem;
+  }
+
+}

@@ -39,7 +39,7 @@ body {
 }
 
 body.noscroll {
-    overflow: hidden;;
+    overflow: hidden;
   }
 
 
@@ -64,13 +64,13 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
-    max-width: 1280;
+    max-width: 1280px;
 }
 
 .container-fluid {
     width: 100%;
     margin: 0 auto;
-    max-width: 1440;
+    max-width: 1440px;
 }
 
 .content {

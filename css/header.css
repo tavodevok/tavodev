@@ -13,35 +13,25 @@
     align-items: center;
     justify-content: center;
   }
-  .header-content {  
+  .header-navbar {  
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1024px;
   }
-
-  .logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  
-  .logo img {
-    width: 48px;
-    height: 48px;
-  }
-  
+    
   .logo-text {
       color: var(--white);
       font-weight: bold;
-      font-size: 30px;
+      font-size: 20px;
       border-bottom: 2px solid white;
       border-top: 2px solid white;
       padding: 0px 4px;
-      line-height: 1.7;
+      line-height: 80px;
       font-family: 'Limelight', cursive;
+      letter-spacing: 2px;
   }
 
   .navigation {
@@ -49,8 +39,43 @@
     display: flex;
   }
 
+  @media screen and (max-width: 991px){
+    .header {
+      height: 64px;
+    }
+
+    .logo-text {
+      line-height: 64px;
+    }
+  }
+
   @media screen and (min-width: 992px) {
     .hide-for-desktop {
       display: none;
+    }
+
+  }
+
+  @media screen and (min-width: 768px){
+    .logo-text {
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (min-width: 1024px){
+    .logo-text {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    .logo-text {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (min-width: 1440px){
+    .logo-text {
+      font-size: 26px;
     }
   }

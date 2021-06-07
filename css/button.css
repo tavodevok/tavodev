@@ -9,17 +9,6 @@
         border-radius: 8px;
 }
 
-/* GO DOWN BUTTON */
-
-.btn-down {
-  /* border: 1px solid var(--yellow); */
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-top: 4rem;
-}
 
 .btn-cta{
   color: var(--tertiary);
@@ -42,6 +31,13 @@
   transition: all 0.3s ease-in-out;
   border: 2px solid var(--white);
   padding: .5rem 1rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 991px) and (orientation: landscape) {
+  .btn-cta-title {
+    margin: 2rem 0;
+  }
 }
 
 .btn-cta-title:hover {
@@ -61,7 +57,7 @@
     width: 32px;
     height: 32px;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 5rem;
   }
   
   .go-top-button {

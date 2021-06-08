@@ -22,30 +22,39 @@
     align-items: center;
   }
 
-.section-title {
-    color: var(--tertiary);
+.home-text h1 {
+    color: var(--white);
     text-align: center;
     font-size: 28px;
     line-height: 1.7;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
   }
   
 
 
-  /* .presentation {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    font-style: italic;
-    color: var(--white);
-    font-weight: 200;
-  } */
-
-
   @media screen and (max-width: 677px){
-      .home-text .section-title {
+      .home-text h1 {
         font-size: 24px;
       }
+  }
+
+  @media screen and (min-width: 678px) {
+    .home-text h1 {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .home-text h1 {
+      font-size: 34px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .home-text h1 {
+      font-size: 38px;
+    }
   }
 
 @media screen and (max-width: 991px){
@@ -56,37 +65,6 @@
   }
 }
 
-@media screen and (min-width: 576px) {
-.presentation {
-      font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 678px) {
-.section-title {
-    font-size: 2.2rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  .presentation {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-.section-title {
-    font-size: 2.5rem;
-  }
-.presentation {
-    font-size: 2rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-.section-title {
-    font-size: 3rem;
-  }
-.presentation {
-    font-size: 2.5rem;
-  }
-}
 
 @media (orientation: landscape) {
   .home {
